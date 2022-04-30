@@ -29,8 +29,12 @@ After point and click install.
  * sudo dnf install lame\* --exclude=lame-devel
  * sudo dnf group upgrade --with-optional Multimedia
  * sudo dnf install x265 x264 wavpack xvidcore faad2 faad2-libs
+ * sudo dnf install rpmfusion-free-release-tainted
+ * sudo dnf install libdvdcss
+ * sudo dnf install \*-firmware
  * sudo dnf update 
  * sudo dnf upgrade
+ * sudo dnf groupupdate sound-and-video
  
 
 
