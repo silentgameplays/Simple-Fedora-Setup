@@ -23,7 +23,7 @@ After point and click install.
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
   
  # 3. Installing NVIDIA drivers with other stuff:
- * sudo dnf install akmod-nvidia vulkan-tools vulkan-headers vulkan-loader vulkan-validation-layers
+ * sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda vulkan-tools vulkan-headers vulkan-loader vulkan-validation-layers
  # 4. installing codecs and other dependencies for playing videos:
  * sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
  * sudo dnf install lame\* --exclude=lame-devel
