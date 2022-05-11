@@ -16,11 +16,14 @@ After point and click install.
 # Ctrl+O,Ctrl+X
 * sudo dnf update
 # 2. Enabling RPM repos free and non-free:
-* sudo dnf install \
+ * sudo dnf install \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
-* sudo dnf install \
+ * sudo dnf install \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+  
+ * sudo dnf update --refresh
+ * sudo dnf upgrade --refresh -y
   
  # 3. Installing NVIDIA drivers with other stuff:
  * sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda vulkan-tools vulkan-headers vulkan-loader vulkan-validation-layers
@@ -62,6 +65,7 @@ After point and click install.
  # Create the following folders plugins->nvfbc->bin->64bit
  # paste nvfbc.so into 64bit
  # Go to OBS Studio and add the NvFBC Source to your scene
+ 
  Ok you are good to use Fedora for gaming and watching videos properly!Congrats!
  #silentgamepls
 
