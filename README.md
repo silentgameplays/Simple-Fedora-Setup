@@ -31,7 +31,7 @@ After point and click install.
  * sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
  * sudo dnf install lame\* --exclude=lame-devel
  * sudo dnf group upgrade --with-optional Multimedia
- * sudo dnf install x265 x264 wavpack xvidcore faad2 faad2-libs
+ * sudo dnf install x265 x264 wavpack xvidcore faad2 faad2-libs mpg123
  * sudo dnf install rpmfusion-free-release-tainted
  * sudo dnf install libdvdcss
  * sudo dnf install \*-firmware
