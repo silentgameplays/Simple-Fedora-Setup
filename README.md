@@ -48,7 +48,7 @@ After point and click install.
  * sudo dnf install obs-studio shotcut kdenlive gimp krita kate 
  * sudo dnf install ktorrent fragments transmission
  * sudo dnf install python3 git
- # 8. NVFBC plugin for OBS Studio:
+ # 8.(Work in progress) NVFBC plugin for OBS Studio:
  # Get nvidia-patch: https://github.com/keylase/nvidia-patch
  # Extract and go to the folder
  # Open in terminal
@@ -66,6 +66,8 @@ After point and click install.
  # Create the following folders plugins->nvfbc->bin->64bit
  # paste nvfbc.so into 64bit
  # Go to OBS Studio and add the NvFBC Source to your scene
+ # 9 Adding flatpak after the install for proprietary stuff:
+ * flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
  
  Ok you are good to use Fedora for gaming and watching videos properly!Congrats!
  #silentgamepls
