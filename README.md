@@ -56,7 +56,7 @@ After point and click install.
  # Get obs-nvfbc: https://gitlab.com/fzwoch/obs-nvfbc
  # Extract and go to folder
  # Open in terminal in case you have installed them,ninja build seems to be installed by default:
- * sudo dnf install meson ninja-build 
+ * sudo dnf install meson ninja-build cmake
  * sudo dnf install mesa-libGL-devel mesa-libGLU-devel
  * meson build
  * ninja -C build
