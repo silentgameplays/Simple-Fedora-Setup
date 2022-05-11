@@ -47,6 +47,7 @@ After point and click install.
  # 7.(Optional) Installing OBS Studio for recording the screen and other utilities:
  * sudo dnf install obs-studio shotcut kdenlive gimp krita kate 
  * sudo dnf install ktorrent fragments transmission
+ * sudo dnf install python3 git
  # 8. NVFBC plugin for OBS Studio:
  # Get nvidia-patch: https://github.com/keylase/nvidia-patch
  # Extract and go to the folder
