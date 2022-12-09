@@ -70,6 +70,10 @@ After point and click install.
  * flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
  
  Ok you are good to use Fedora for gaming and watching videos properly!Congrats!
+ 
+ # YouTube tutorial on howto:
+ https://youtu.be/qbpNY3WB98Q
+
  #silentgamepls
 
  
